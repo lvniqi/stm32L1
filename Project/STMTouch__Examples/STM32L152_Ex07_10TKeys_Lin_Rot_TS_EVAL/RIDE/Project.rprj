@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Project'" Path=".\Project.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="Project" >
+	<ApplicationBuild Header="Project" Extern=".\Project.rapp" Path=".\Project.rapp" OutputFile=".\STM32L152_10TKeys_Lin_Rot_TS_EVAL\Project.elf" sate="96" Config="STM32L152_10TKeys_Lin_Rot_TS_EVAL" />
+</Project>

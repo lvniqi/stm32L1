@@ -1,0 +1,445 @@
+<html>
+<head>
+<style>
+<!--
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{margin-top:0cm;margin-right:0cm;margin-bottom:8pt;margin-left:0cm;line-height:normal;font-size:10.0pt;font-family:Verdana,sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+{margin-top:0cm;margin-right:0cm;margin-bottom:2pt;margin-left:0cm;line-height:normal;font-size:10.0pt;font-family:Verdana,sans-serif;}
+-->
+</style>
+<title>
+STM32L1xx STMTouch Examples Release Notes
+</title>
+</head>
+<body lang=EN-US>
+<p class=MsoNormal align=center style='text-align:center;line-height:normal'><b><span style='font-size:18.0pt;color: rgb(51, 102, 255)'>
+Release Notes for
+</span></b></p>
+<p class=MsoNormal align=center style='text-align:center;line-height:normal'><b><span style='font-size:18.0pt;color: rgb(51, 102, 255)'>
+STM32L1xx STMTouch Examples
+</span></b></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal align=center style='line-height:center;line-height:normal'><span style='font-size:10.0pt'>
+Copyright © 2014 STMicroelectronics
+</span></p>
+<p class=MsoNormal align=center style='line-height:center;line-height:normal'><span style='font-size:10.0pt'>
+Microcontrollers Division - Application Team
+</span></p>
+<p class=MsoNormal align=center> <img id=_rnc_img0 src=../../_htmresc/st_logo.png border=0> </span></p>
+<p class=MsoNormal align=center> <img id=_rnc_img1 src=../../_htmresc/stmtouch.bmp border=0> </span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;margin-right:4cm;width:80%;background:rgb(51, 102, 255)'>
+<td style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-left:0cm;margin-bottom:0cm;line-height:normal'><b><span style='font-size:12.0pt;color:white'>
+Update History</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;&nbsp;</span></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;width:23%;background:rgb(51, 102, 255)'>
+<td align=left style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span style='font-size:10.0pt;color:white'>
+V1.1.0  /  24-February-2014</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Main Changes
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+Use latest STMTouch Driver. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Content
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex01_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex02_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex03_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex04_LPM_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex05_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex06_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 1 Bank) on Discovery board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex07_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex08_LPM_3TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex09_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex10_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 1 Bank) on Discovery board. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Development Toolchains and Compilers
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+IAR Embedded Workbench for ARM V6.70.2. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+KEIL MDK-ARM V5.01. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ALTIUM TASKING V4.3r1. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ATOLLIC TrueSTUDIO V4.3.1. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+RAISONANCE Ride7 V7.48 + RKitARM V1.52. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Supported Devices and EVAL boards
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152D-EVAL Board (MB964 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L Controller Board (MCD10-021 rev B) + STM32L Sensor Board 1 (MCD10-022 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-Discovery (MB963 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev A). 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Known Limitations
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+None. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;&nbsp;</span></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;width:23%;background:rgb(51, 102, 255)'>
+<td align=left style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span style='font-size:10.0pt;color:white'>
+V1.0.2  /  12-August-2013</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Main Changes
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+Use STMTouch Driver V1.4.2 to rebuild HEX files. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+Add STM32L152_Ex10_Linear_EVAL example. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+Add the STMStudio Lock feature in all examples. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+Add test of DEB_RELEASE_DETECT state in all examples. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Content
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex01_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex02_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex03_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex04_LPM_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex05_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex06_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 1 Bank) on Discovery board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex07_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex08_LPM_3TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex09_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex10_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 1 Bank) on Discovery board. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Development Toolchains and Compilers
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+IAR Embedded Workbench for ARM V6.50. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+KEIL MDK-ARM V4.60. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ALTIUM TASKING V4.3r1. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ATOLLIC TrueSTUDIO V3.2.0. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+RAISONANCE Ride7/Rkit arm V1.44. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Supported Devices and EVAL boards
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152D-EVAL Board (MB964 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L Controller Board (MCD10-021 rev B) + STM32L Sensor Board 1 (MCD10-022 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-Discovery (MB963 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev A). 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Known Limitations
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+None. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;&nbsp;</span></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;width:23%;background:rgb(51, 102, 255)'>
+<td align=left style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span style='font-size:10.0pt;color:white'>
+V1.0.1  /  25-January-2013</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Main Changes
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+Use STMTouch Driver V1.3.2 to rebuild HEX files. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Content
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex01_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex02_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex03_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex04_LPM_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex05_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex06_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 1 Bank) on Discovery board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex07_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex08_LPM_3TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex09_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Development Toolchains and Compilers
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+IAR Embedded Workbench for ARM V6.30. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+KEIL MDK-ARM V4.60. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ALTIUM TASKING V4.3r1. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ATOLLIC TrueSTUDIO V3.2.0. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+RAISONANCE Ride7/Rkit arm V1.44. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Supported Devices and EVAL boards
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152D-EVAL Board (MB964 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L Controller Board (MCD10-021 rev B) + STM32L Sensor Board 1 (MCD10-022 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-Discovery (MB963 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev A). 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Known Limitations
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+None. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;&nbsp;</span></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;width:23%;background:rgb(51, 102, 255)'>
+<td align=left style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span style='font-size:10.0pt;color:white'>
+V1.0.0  /  18-January-2013</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Main Changes
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+First Official release. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Content
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex01_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex02_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 3 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex03_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex04_LPM_3TKeys_EVAL: Example with 3 TKeys (3 Channels / 3 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex05_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex06_Linear_EVAL: Example with 1 Linear sensor (3 Channels / 1 Bank) on Discovery board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex07_10TKeys_Lin_Rot_TS_EVAL: Example with 10 TKeys + 2 LinRot sensors on Sensor board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex08_LPM_3TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) and Low Power on Eval board. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152_Ex09_2TKeys_EVAL: Example with 2 TKeys (2 Channels / 2 Banks) on Eval board. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Development Toolchains and Compilers
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+IAR Embedded Workbench for ARM V6.30. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+KEIL MDK-ARM V4.60. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ALTIUM TASKING V4.3r1. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+ATOLLIC TrueSTUDIO V3.2.0. 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+RAISONANCE Ride7/Rkit arm V1.44. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Supported Devices and EVAL boards
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152D-EVAL Board (MB964 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L Controller Board (MCD10-021 rev B) + STM32L Sensor Board 1 (MCD10-022 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-Discovery (MB963 rev B). 
+</span>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+STM32L152-EVAL (MB819 rev A). 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;line-height:normal'><b><u><span style='font-size:10.0pt'>
+Known Limitations
+</span></u></b></p>
+<p class=MsoListParagraph style='margin-left:4cm;margin-right:4cm;text-indent:10.0pt;line-height:normal'><spanstyle='font-size:10.0pt;font-family:Symbol'>&#8226;<span style='font:7.0pt'>&nbsp;</span><span style='font-size:10.0pt'>
+None. 
+</span></p>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;margin-right:4cm;width:80%;background:rgb(51, 102, 255)'>
+<td style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-left:0cm;margin-bottom:0cm;line-height:normal'><b><span style='font-size:12.0pt;color:white'>
+License</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-left:4cm;margin-right:4cm;line-height:normal'><span style='font-size:10.0pt;color:black'>Licensed under MCD-ST Liberty SW License Agreement V2, (the "License").
+You may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+
+</span></p>
+<p class=MsoNormal style='text-align:center;line-height:normal'><span style='font-size:10.0pt'>
+<a href=http://www.st.com/software_license_agreement_liberty_v2> http://www.st.com/software_license_agreement_liberty_v2</a></span></p>
+<p class=MsoNormal style='margin-left:4cm;margin-right:4cm;line-height:normal'><span style='font-size:10.0pt;color:black'>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</a></span></p>
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span></b></p>
+<table class=MsoNormal border=0 cellspacing=0 cellpadding=0 width=100%
+style='margin-left:4cm;margin-right:4cm;width:80%;background:rgb(51, 102, 255)'>
+<td style='padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-left:0cm;margin-bottom:0cm;line-height:4pt'><b><span style='font-size:10.0pt;color:rgb(51, 102, 255)'>
+---</span></b></p></td></tr></table>
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span></b></p>
+<p class=MsoNormal style='text-align:center;line-height:normal'><span style='font-size:10.0pt'>
+For complete documentation on <b>STMTouch</b> microcontrollers please visit <a href=http://www.st.com/stmtouch> http://www.st.com/stmtouch</a></span></p>
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:10.0pt'>&nbsp;&nbsp;&nbsp;</span></b></p>
+<p class=MsoNormal align=right style='margin-right:1cm;line-height:normal'><span style='font-size:8.0pt'>Generated by RNcreator v2.4
+</span></p>
+<!-- Generated by RNcreator v2.4 on 24/03/2014  -->
+</div>
+</body>
+</html>

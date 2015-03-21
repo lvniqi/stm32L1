@@ -1,0 +1,144 @@
+
+<ApplicationBuild Header="Project" Extern=".\Project.rapp" Path=".\Project.rapp" OutputFile=".\STM32L152_3TKeys_EVAL\Project.elf" sate="98" Config="STM32L152_3TKeys_EVAL" >
+	<Configs>
+		<Config Header="STM32L152_3TKeys_EVAL" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																
+	</Configs>
+	<Group Header="CMSIS" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\src\system_stm32l1xx.c" Header="system_stm32l1xx.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\system_stm32l1xx.o" sate="0" />
+																																																																																																																																																																																																																																						
+	</Group>
+	<Group Header="STM32_StdPeriph_Driver" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rcc.c" Header="stm32l1xx_rcc.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\stm32l1xx_rcc.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\src\misc.c" Header="misc.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\misc.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_gpio.c" Header="stm32l1xx_gpio.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\stm32l1xx_gpio.o" sate="0" />
+																																																																																																																																																																																																																													
+	</Group>
+	<Group Header="User" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\src\tsl_user.c" Header="tsl_user.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_user.o" sate="0" />
+		<NodeC Path="..\src\main.c" Header="main.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\main.o" sate="0" />
+		<NodeC Path="..\src\stm32l1xx_it.c" Header="stm32l1xx_it.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\stm32l1xx_it.o" sate="0" />
+																																																																																																																																																																																																																																	
+	</Group>
+	<Group Header="RIDE" Marker="-1" OutputFile="" sate="0" >
+		<NodeASM Path="..\..\..\..\Libraries\CMSIS\Device\ST\STM32L1xx\Source\Templates\gcc_ride7\startup_stm32l1xx_hd.s" Header="startup_stm32l1xx_hd.s" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\startup_stm32l1xx_hd.o" sate="0" />
+																																																																																																																																																																																																																																	
+	</Group>
+	<Group Header="STMTouch_Driver" Marker="-1" OutputFile="" sate="64" >
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl.c" Header="tsl.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_acq.c" Header="tsl_acq.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_acq.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_acq_stm32l1xx_hw.c" Header="tsl_acq_stm32l1xx_hw.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_acq_stm32l1xx_hw.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_dxs.c" Header="tsl_dxs.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_dxs.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_ecs.c" Header="tsl_ecs.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_ecs.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_filter.c" Header="tsl_filter.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_filter.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_globals.c" Header="tsl_globals.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_globals.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_linrot.c" Header="tsl_linrot.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_linrot.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_object.c" Header="tsl_object.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_object.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_time.c" Header="tsl_time.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_time.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_time_stm32l1xx.c" Header="tsl_time_stm32l1xx.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_time_stm32l1xx.o" sate="0" />
+		<NodeC Path="..\..\..\..\Libraries\STMTouch_Driver\src\tsl_touchkey.c" Header="tsl_touchkey.c" Marker="-1" OutputFile=".\STM32L152_3TKeys_EVAL\tsl_touchkey.o" sate="0" />
+									
+	</Group>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value="..;..\..\library\inc" Removable="1" />
+					<Property Header="OutDir" Value="$(ApplicationDir)\obj" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\lst" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32L152ZD" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\\GNU.config" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="VECT_TAB_FLASH" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="STLIB" Value="0" Removable="1" />
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="File" Value=".\STM32F103_128K_20K_DEF.ld" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+			</Set>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+		</Config>
+		<Config Header="STM32L152_3TKeys_EVAL" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32L152ZD" />
+																									
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" />
+																																											
+				</Section>
+																			
+			</Set>
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\STM32L152_3TKeys_EVAL" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\STM32L152_3TKeys_EVAL" Removable="1" />
+					<Property Header="IncDir" Value="..\inc;..\..\..\..\Libraries\CMSIS\Device\ST\STM32L1xx\Include;..\..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\inc;..\..\..\..\Libraries\STMTouch_Driver\inc;..\..\..\..\Utilities\STM32_EVAL\STM32L152_TS_EVAL;..\..\..\..\Utilities\STM32_EVAL\Common;..\..\..\..\Libraries\CMSIS\Include" Removable="1" />
+																									
+				</Section>
+																			
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="USE_STDPERIPH_DRIVER;STM32L1XX_HD" Removable="1" />
+																									
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																														
+				</Section>
+																			
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																														
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																					
+				</Section>
+																																																																																																							
+			</Set>
+			<Set Header="AS" >
+				<Section Header="Options" >
+					<Property Header="Debug" Value="-Wa,-gdwarf2" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>
